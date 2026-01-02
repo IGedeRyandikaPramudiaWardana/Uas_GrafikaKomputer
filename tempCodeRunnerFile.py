@@ -1,4 +1,2 @@
-    # Kontrol event toggle otomatis
-            if event.type == pygame.KEYDOWN:
-                    if event.key == pygame.K_SPACE:
-                        app.otomatis = not app.otomatis
+path_titik = r'D:\Grafika Komputer\program3_bruteforceFIX\UAS\titik_limasSegi4.txt'
+    path_garis = r'D:\Grafika Komputer\program3_bruteforceFIX\UAS\garis_limasSegi4.txt'

@@ -299,8 +299,10 @@ def main():
     app = render3D()
 
     # Pastikan path file benar
-    path_titik = r'D:\Grafika Komputer\program3_bruteforceFIX\UAS\titik.txt'
-    path_garis = r'D:\Grafika Komputer\program3_bruteforceFIX\UAS\garis.txt'
+    # path_titik = r'D:\Grafika Komputer\program3_bruteforceFIX\UAS\titik.txt'
+    # path_garis = r'D:\Grafika Komputer\program3_bruteforceFIX\UAS\garis.txt'
+    path_titik = r'D:\Grafika Komputer\program3_bruteforceFIX\UAS\titik_limasSegi4.txt'
+    path_garis = r'D:\Grafika Komputer\program3_bruteforceFIX\UAS\garis_limasSegi4.txt'
 
     # Panggil fungsi load_data
     app.load_data(path_titik, path_garis)
@@ -355,7 +357,7 @@ def main():
         # Hitung transformasi berdasarkan input    
         app.hitung_transformasi()
         app.tampilkan_objek()
-        # app.tampilkan_info() # menambahkan header infornmasi
+        app.tampilkan_info() # menambahkan header infornmasi
         pygame.display.flip()
         clock.tick(60)
 
